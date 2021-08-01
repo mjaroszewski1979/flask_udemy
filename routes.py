@@ -18,6 +18,10 @@ def success():
         send_mail(name=name, email=email, message=message)
     return render_template('success.html', name=name, email=email)
 
+@main.route('/project01')
+def project02():
+    return render_template('project01.html')
+
 @main.route('/project02')
 def project02():
     return render_template('project02.html')
