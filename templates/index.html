@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Showcase -->
+<section class="showcase">
+    <div class="container grid">
+        <div class="showcase-text">
+            <h1>Web Developer</h1>
+            <hr>
+            <h1>Graphic Designer</h1>
+
+        </div>
+        <div class="showcase-form card">
+            <h2>Contact Me</h2>
+            <form action="{{ url_for('success') }}", method='POST'>
+                <div class="form-control">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="message" placeholder="Message">
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Stats -->
+<section class="stats">
+    <div class="container">
+        <div class="grid grid-3 text-center my-2">
+            <div>
+                <i class="fas fa-globe fa-3x"></i>
+                <p class="text-secondary">International</p>      
+            </div>
+            <div>
+                <i class="fas fa-people-arrows fa-3x"></i>
+                <p class="text-secondary">Accessible</p> 
+            </div>
+            <div>
+                <i class="fas fa-lightbulb fa-3x"></i>
+                <p class="text-secondary">Open-minded</p> 
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Tools -->
+<section class="tools">
+    <div class="container grid">
+        <img src="../static/images/logo.png" alt="">
+        <div class="card">
+            <h3>Digital marketing</h3>
+        </div>
+        <div class="card">
+            <h3>On-page SEO tools</h3>
+        </div>
+    </div>
+</section>
+<!-- Cloud -->
+<section class="cloud bg-primary my-2 py-2">
+    <div class="container grid">
+        <div class="text-center">
+            <h2 class="lg">My Services</h2>
+            <p class="lead my-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis possimus tempore commodi molestiae inventore voluptas ex atque ad, iste, quos minima molestias odit. Asperiores laborum sed qui ad quam molestiae!</p>
+        </div>
+        <img src="../static/images/cloud.png" alt="">
+    </div>
+</section>
+<!-- Projects -->
+<section class="projects" id="projects">
+    <h2 class="text-center my-2">My Projects</h2>
+    <div class="container flex">
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_01</h4>
+            <img src="../static/images/project01.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project02')}}"><div class="card">
+            <h4>Project_02</h4>
+            <img src="../static/images/project02.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project03')}}"><div class="card">
+            <h4>Project_03</h4>
+            <img src="../static/images/project03.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project04')}}"><div class="card">
+            <h4>Project_04</h4>
+            <img src="../static/images/project04.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project05')}}"><div class="card">
+            <h4>Project_05</h4>
+            <img src="../static/images/project05.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_06</h4>
+            <img src="../static/images/project06.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_07</h4>
+            <img src="../static/images/project07.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_08</h4>
+            <img src="../static/images/project08.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_09</h4>
+            <img src="../static/images/project09.png" alt="">
+        </div></a>
+        <a href="{{ url_for('project01')}}"><div class="card">
+            <h4>Project_10</h4>
+            <img src="../static/images/project10.png" alt="">
+        </div></a>
+    </div>
+</section>
+{% endblock content %}
