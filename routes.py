@@ -19,7 +19,7 @@ def success():
     return render_template('success.html', name=name, email=email)
 
 @main.route('/project01')
-def project02():
+def project01():
     return render_template('project01.html')
 
 @main.route('/project02')
