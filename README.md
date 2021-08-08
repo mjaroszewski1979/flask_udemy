@@ -9,7 +9,7 @@
 * Embedded Font Awesome icon collection 
 * Advanced HTML and CSS minification process aims to reduce webpage loading speed &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/speed.png">
 * CSS Flexbox applied to simplify complex layout design
-* Storing app’s secure credentials in environment variables
+* Storing app’s secure credentials in environment variables &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/security.png"> 
 * A highly adaptable and scalable workflow for structuring and configuring a production-grade flask application using flask blueprints and the application factory pattern
 
 
