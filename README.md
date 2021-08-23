@@ -24,6 +24,6 @@
  ![caption](https://github.com/mjaroszewski1979/flask_udemy/blob/main/johnsmith.gif)
 
   
-  Live | Code | Technologies
-  ---- | ---- | ------------
-  [<img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/heroku1.png">](https://flask-smtplib.herokuapp.com/) | [<img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/github1.png">](https://github.com/mjaroszewski1979/flask_udemy) | <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/python1.png"> &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/flask.png"> &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/html1.png"> &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/css1.png"> 
+   Live | Code | Docker | Technologies
+  ---- | ---- | ------ | ------------
+  [<img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/heroku1.png">](https://flask-smtplib.herokuapp.com/) | [<img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/github1.png">](https://github.com/mjaroszewski1979/flask_udemy) | [<img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/docker.png">](https://hub.docker.com/r/maciej1245/john_smith) | <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/python1.png"> &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/flask.png">  &nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/jinja.png">&nbsp; <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/html1.png"> <img src="https://github.com/mjaroszewski1979/mjaroszewski1979/blob/main/css1.png"> 
