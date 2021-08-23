@@ -1,6 +1,7 @@
 from flask import url_for, render_template, request
 from flask import Blueprint
 from send_mail import send_mail
+import threading
 
 
 main = Blueprint('main', __name__)
@@ -15,7 +16,8 @@ def success():
         name = request.form['name']
         email = request.form['email']
         message = request.form['message']
-        send_mail(name=name, email=email, message=message)
+        t1 = threading.Thread(target=send_mail, args=[name,email,message])
+        t1.start()
     return render_template('success.html', name=name, email=email)
 
 @main.route('/project01')
