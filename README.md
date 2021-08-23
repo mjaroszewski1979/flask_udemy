@@ -15,6 +15,12 @@
 
 -------------------------------------------------
 
+### Code Coverage
+
+ ![caption](https://github.com/mjaroszewski1979/flask_udemy/blob/main/coverage.png)
+ 
+-------------------------------------------------
+
  ![caption](https://github.com/mjaroszewski1979/flask_udemy/blob/main/johnsmith.gif)
 
   
